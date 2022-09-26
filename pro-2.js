@@ -3,7 +3,7 @@
 function sumaUno( numero ) {
  var promesa = new Promise( function(resolve, reject){
     console.log(numero);
-if (numero >= 7){
+if (numero >= 100){
     reject('El numero es muy alto');
 }
 
